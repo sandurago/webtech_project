@@ -1,0 +1,34 @@
+:root {
+    --orange: #F29F58;
+    --maroon: #AB4459;
+    --purple: #441752;
+    --black: #1B1833;
+}
+
+body {
+    padding: 0 30px;
+    color: var(--black)
+}
+
+/*LOGO*/
+.monoton {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.exo-300 {
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.exo-900 {
+    font-family: "Exo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
