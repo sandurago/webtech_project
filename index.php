@@ -50,7 +50,7 @@ $sortedProducts = $products->getProductsDescendingCount();
     const container = document.querySelector('#popup-container');
     container.classList.remove('hidden');
     const template = `
-      <section class="absolute top-0 left-1/4 w-1/2 h-1/3 p-4 bg-gray-100 rounded-lg flex flex-col gap-2 justify-center items-center">
+      <section class="absolute top-0 left-1/4 w-1/2 p-4 bg-gray-100 rounded-lg flex flex-col gap-2 justify-center items-center">
         <img src="${product.image}" alt="" class="h-[200px] w-fit">
         <p class="text-xl">${product.title}</p>
         <p class="font-bold">${product.price} PLN</p>
