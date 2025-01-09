@@ -4,6 +4,7 @@ include('Controllers/ProductAPIController.php');
 include('Controllers/Product.php');
 include('Controllers/Database.php');
 
+// Dodanie do koszyka
 if (isset($_POST['id'])) {
   $products = new Products;
   $product = $products->getProductById($_POST['id']);

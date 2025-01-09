@@ -2,7 +2,7 @@
 class Products {
   public function getProducts() {
     $url = 'https://fakestoreapi.com/products';
-    // inicjalizuje sesje cURL
+    // Inicjalizuje sesje cURL
     $curl = curl_init($url);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
     $products = curl_exec($curl);
@@ -28,6 +28,7 @@ class Products {
     return $result;
   }
 
+  // Pobranie danych o produkcie na podstawie id
   public function getProductById($id) {
     $url = 'https://fakestoreapi.com/products/' . $id;
     $curl = curl_init($url);

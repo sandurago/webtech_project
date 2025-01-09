@@ -3,6 +3,7 @@ include('header.php');
 include('Controllers/Product.php');
 include('Controllers/Database.php');
 
+// Usuwanie z koszyka
 if (isset($_POST['id'])) {
   $db = new Database;
   $pdo = $db->getPDO();

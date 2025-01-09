@@ -2,6 +2,7 @@
   include('header.php');
   include('Controllers/Database.php');
 
+  // Zapytanie o produkty w koszyku
   $db = new Database;
   $pdo = $db->getPDO();
   $stmt = $pdo->query('SELECT * FROM product');
